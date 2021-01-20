@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+
+   HINSTANCE DLLHandle;
+   typedef int(*Type_Pointeur_De_Fonction)(int, int);
+   Type_Pointeur_De_Fonction Pointeur_Fonction;
+   DLLHandle = LoadLibrary("dll.dll");
+   Pointeur_Fonction = (Type_Pointeur_De_Fonction)GetProcAddress(DLLHandle,"addition");
+
+   int resultat = 0;
+   resultat = Pointeur_Fonction(3,7);
+   printf("Le resultat est: %d\n", resultat);
+   printf("Appuyez sur une touche pour continuer...");
+   getchar();
+
+   FreeLibrary(DLLHandle);
+   return 0;
+}

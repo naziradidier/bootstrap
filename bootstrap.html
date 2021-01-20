@@ -1,0 +1,825 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.0.7.3 (Linux)"/>
+	<meta name="created" content="2021-01-19T16:10:10.585337969"/>
+	<meta name="changed" content="2021-01-19T16:25:54.489670870"/>
+	<style type="text/css">
+		@page { margin: 2cm }
+		p { margin-bottom: 0.25cm; line-height: 115% }
+		h2.cjk { font-family: "Noto Sans CJK SC" }
+		h2.ctl { font-family: "Lohit Devanagari" }
+		h3.cjk { font-family: "Noto Sans CJK SC" }
+		h3.ctl { font-family: "Lohit Devanagari" }
+	</style>
+</head>
+<body lang="fr-FR" dir="ltr">
+<h2 class="western">Menu simple</h2>
+<p>Voici un exemple de menu avec 4 liens.</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;ul class=&quot;nav&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;li class=&quot;nav-item&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	active&quot; href=&quot;#&quot;&gt;Accueil&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/li&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;li class=&quot;nav-item&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;A propos&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/li&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;li class=&quot;nav-item&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Services&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/li&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;li class=&quot;nav-item&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Contact&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/li&gt;</p>
+	<li/>
+<p>&lt;/ul&gt;</p>
+</ol>
+<p><br/>
+<br/>
+
+</p>
+<p><br/>
+<br/>
+
+</p>
+<h3 class="western">Menu simplifié</h3>
+<p>Il est possible d’alléger le code en supprimant la balise&nbsp;&lt;ul&gt;
+et travailler avec la sémantique&nbsp;nav.</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;nav&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	active&quot; href=&quot;#&quot;&gt;Accueil&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;A propos&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Services&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Contact&lt;/a&gt;</p>
+	<li/>
+<p>&lt;/nav&gt;</p>
+</ol>
+<p>Sémantiquement la balise &lt;nav&gt; suffit pour annoncer une
+zone de navigation.</p>
+<h3 class="western">Style personnalisé</h3>
+<p>Vous pouvez utiliser les classes de style abordées dans le
+chapitre «&nbsp;Gérer les alignements&nbsp;» pour :</p>
+<ul>
+	<li/>
+<p style="margin-bottom: 0cm">centrer les liens avec
+	<strong>justify-content-center</strong> 
+	</p>
+	<li/>
+<p>aligner à droite les liens avec<strong>
+	justify-content-end</strong> 
+	</p>
+</ul>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;nav
+	justify-content-center&quot;&gt; &lt;!-- alignement centre --&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	active&quot; href=&quot;#&quot;&gt;Accueil&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;A propos&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Services&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Contact&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/nav&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;hr&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;nav
+	justify-content-end&quot;&gt; &lt;!-- alignement droite --&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	active&quot; href=&quot;#&quot;&gt;Accueil&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;A propos&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Services&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Contact&lt;/a&gt;</p>
+	<li/>
+<p>&lt;/nav&gt;</p>
+</ol>
+<p>Affichage :</p>
+<p><img src="bootstrap_html_cdc885e807d3ff29.png" name="Image3" align="bottom" width="788" height="122" border="0"/>
+</p>
+<p>Vous pouvez même travailler sur la verticale avec flex-column .</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;nav
+	flex-column&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	active&quot; href=&quot;#&quot;&gt;Accueil&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;A propos&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Services&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Contact&lt;/a&gt;</p>
+	<li/>
+<p>&lt;/nav&gt;</p>
+</ol>
+<p><br/>
+<br/>
+
+</p>
+<h2 class="western">Menu à onglets</h2>
+<p>Voici une variante de menu basée sur les onglets et utilisant la
+classe <strong>nav-tabs</strong> . Ce type de menu est souvent
+utilisé avec un composant javascript (voir le chapitre «&nbsp;les
+composants&nbsp;»).</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;nav
+	nav-tabs&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	active&quot; href=&quot;#&quot;&gt;Accueil&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;A propos&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Services&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Contact&lt;/a&gt;</p>
+	<li/>
+<p>&lt;/nav&gt;</p>
+</ol>
+<p><br/>
+<br/>
+
+</p>
+<h2 class="western">Menu bouton</h2>
+<p>Les liens peuvent être présentés sous forme de bouton avec
+<strong>nav-pills</strong> .</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;nav
+	nav-pills&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	active nav-item&quot; href=&quot;#&quot;&gt;Accueil&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;A propos&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Services&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Contact&lt;/a&gt;</p>
+	<li/>
+<p>&lt;/nav&gt;</p>
+</ol>
+<p><br/>
+<br/>
+
+</p>
+<h3 class="western">Bouton large</h3>
+<p>Il est possible de répartir la taille des boutons sur la largeur
+du conteneur avec <strong>nav-fill</strong> . Les liens apparaîtront
+plus larges. Il faut néanmoins inclure <strong>nav-item</strong>
+dans chaque lien.</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;nav
+	nav-pills nav-fill&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	active nav-item&quot; href=&quot;#&quot;&gt;Accueil&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	nav-item&quot; href=&quot;#&quot;&gt;A propos&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	nav-item&quot; href=&quot;#&quot;&gt;Services&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	nav-item&quot; href=&quot;#&quot;&gt;Contact&lt;/a&gt;</p>
+	<li/>
+<p>&lt;/nav&gt;</p>
+</ol>
+<p><br/>
+<br/>
+
+</p>
+<h3 class="western">Bouton large justifié</h3>
+<p><br/>
+<br/>
+
+</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;nav
+	nav-pills nav-fill&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	active nav-item&quot; href=&quot;#&quot;&gt;A.&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	nav-item&quot; href=&quot;#&quot;&gt;A propos&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	nav-item&quot; href=&quot;#&quot;&gt;Services&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	nav-item&quot; href=&quot;#&quot;&gt;Contact&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/nav&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;hr&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;nav
+	nav-pills nav-justified&quot;&gt; &lt;!-- menu justifié --&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	active nav-item&quot; href=&quot;#&quot;&gt;A.&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	nav-item&quot; href=&quot;#&quot;&gt;A propos&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	nav-item&quot; href=&quot;#&quot;&gt;Services&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	nav-item&quot; href=&quot;#&quot;&gt;Contact&lt;/a&gt;</p>
+	<li/>
+<p>&lt;/nav&gt;</p>
+</ol>
+<p><br/>
+<br/>
+
+</p>
+<h3 class="western">Mode Responsive</h3>
+<p>Vous pouvez exploiter les points de rupture (<em>sm, md, lg, xl</em>)
+pour adapter le menu en fonction de la taille de l’appareil.</p>
+<p>Le code ci-dessous propose deux présentation du même menu. Pour
+une taille d’écran inférieur à 576px les boutons sont empilés (
+<em>flex-column</em> ). Mais au delà de cette taille, les liens
+s’alignent <strong>flex-sm-row</strong> .</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;nav
+	nav-pills flex-column flex-sm-row&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	active&quot; href=&quot;#&quot;&gt;Accueil&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;A propos&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Services&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Contact&lt;/a&gt;</p>
+	<li/>
+<p>&lt;/nav&gt;</p>
+</ol>
+<p><br/>
+<br/>
+
+</p>
+<h2 class="western">Menu déroulant</h2>
+<p>Les listes déroulantes sont construites avec la bibliothèque
+tierce Popper.js que vous avez normalement chargée avec Jquery et
+Bootstrap</p>
+<h3 class="western">Le lien déroulant</h3>
+<p>Un lien déroulant affiche une liste de liens lorsqu’on clique
+dessus. Cette liste disparaît si vous cliquez n’importe où sur la
+page ou si vous cliquez à nouveau sur le bouton.</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div class=&quot;dropdown&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; href=&quot;#&quot;
+	role=&quot;button&quot; aria-haspopup=&quot;true&quot;
+	aria-expanded=&quot;false&quot;&gt;Services&lt;/a&gt; &lt;!-- lien
+	--&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div class=&quot;dropdown-menu&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Service 1&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Autre service&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Dernier Service&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/div&gt;</p>
+	<li/>
+<p>&lt;/div&gt;</p>
+</ol>
+<p><br/>
+<br/>
+
+</p>
+<h3 class="western">Le bouton déroulant</h3>
+<p>C’est une variante du lien déroulant avec la balise &lt;button&gt;
+à la place de la balise &lt;a&gt;.</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div class=&quot;dropdown&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;button class=&quot;nav-link
+	dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; href=&quot;#&quot;
+	role=&quot;button&quot; aria-haspopup=&quot;true&quot;
+	aria-expanded=&quot;false&quot;&gt;Services&lt;/button&gt; &lt;!--
+	bouton --&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div class=&quot;dropdown-menu&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Service 1&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Autre service&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Dernier Service&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/div&gt;</p>
+	<li/>
+<p>&lt;/div&gt;</p>
+</ol>
+<p><br/>
+<br/>
+
+</p>
+<p><br/>
+<br/>
+
+</p>
+<h3 class="western">Le bouton déroulant partagé</h3>
+<p>On regroupe le bouton texte (inactif) et le bouton curseur (sur
+lequel on clique pour dérouler) pour former un seul bouton
+<strong>btn-group</strong>.</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div class=&quot;btn-group&quot;&gt;
+	&lt;!-- groupe de boutons --&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;button type=&quot;button&quot;
+	class=&quot;btn&quot;&gt;Services&lt;/button&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;button type=&quot;button&quot;
+	class=&quot;btn dropdown-toggle dropdown-toggle-split&quot;
+	data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot;
+	aria-expanded=&quot;false&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;span class=&quot;sr-only&quot;&gt;Toggle
+	Dropdown&lt;/span&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/button&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div class=&quot;dropdown-menu&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Service 1&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Autre service&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Dernier service&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/div&gt;</p>
+	<li/>
+<p>&lt;/div&gt;</p>
+</ol>
+<p><br/>
+<br/>
+
+</p>
+<p><br/>
+<br/>
+
+</p>
+<h3 class="western">Entête de menu</h3>
+<p>Vous pouvez ajoutez des entête pour créer des sections de
+sous-menu avec <strong>dropdown-header</strong> .</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div class=&quot;btn-group&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;button type=&quot;button&quot;
+	class=&quot;btn&quot;&gt;Services&lt;/button&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;button type=&quot;button&quot;
+	class=&quot;btn dropdown-toggle dropdown-toggle-split&quot;
+	data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot;
+	aria-expanded=&quot;false&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;span class=&quot;sr-only&quot;&gt;Toggle
+	Dropdown&lt;/span&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/button&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div class=&quot;dropdown-menu&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;h6
+	class=&quot;dropdown-header&quot;&gt;Accompagnement&lt;/h6&gt; &lt;!--
+	entête --&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Service 1&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Autre service&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Dernier service&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/div&gt;</p>
+	<li/>
+<p>&lt;/div&gt;</p>
+</ol>
+<p>Affichage :</p>
+<p><br/>
+<br/>
+
+</p>
+<h3 class="western">Diviseur de menu</h3>
+<p>Les groupes de sous-menu peuvent être séparé avec un bloc
+diviseur <strong>dropdown-divider</strong>.</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div class=&quot;btn-group&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;button type=&quot;button&quot;
+	class=&quot;btn&quot;&gt;Services&lt;/button&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;button type=&quot;button&quot;
+	class=&quot;btn dropdown-toggle dropdown-toggle-split&quot;
+	data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot;
+	aria-expanded=&quot;false&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;span class=&quot;sr-only&quot;&gt;Toggle
+	Dropdown&lt;/span&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/button&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div class=&quot;dropdown-menu&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;h6
+	class=&quot;dropdown-header&quot;&gt;Accompagnement&lt;/h6&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Service 1&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Autre service&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Dernier service&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div
+	class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt; &lt;!-- diviseur
+	--&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Lien séparé&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/div&gt;</p>
+	<li/>
+<p>&lt;/div&gt;</p>
+</ol>
+<p><br/>
+<br/>
+
+</p>
+<h3 class="western">Liste sans lien</h3>
+<p>Avec la version 4 de Bootstrap vous pouvez remplacer tous les
+liens &lt;a&gt; par des boutons&nbsp;&lt;button&gt;.</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div class=&quot;dropdown&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;button class=&quot;nav-link
+	dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; href=&quot;#&quot;
+	role=&quot;button&quot; aria-haspopup=&quot;true&quot;
+	aria-expanded=&quot;false&quot;&gt;Services&lt;/button&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div class=&quot;dropdown-menu&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;button class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Service 1&lt;/button&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;button class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Autre service&lt;/button&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;button class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Dernier Service&lt;/button&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/div&gt;</p>
+	<li/>
+<p>&lt;/div&gt;</p>
+</ol>
+<p><br/>
+<br/>
+
+</p>
+<h3 class="western">Le menu déroulant simple</h3>
+<p>Il suffit d’intégrer le bloc déroulant ( <strong>dropdown-menu</strong>
+) dans un menu simple ( <strong>nav</strong> ).</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;nav&quot;&gt;
+	&lt;!-- menu simple --&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	active&quot; href=&quot;#&quot;&gt;Accueil&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; href=&quot;#&quot;
+	role=&quot;button&quot; aria-haspopup=&quot;true&quot;
+	aria-expanded=&quot;false&quot;&gt;Services&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div class=&quot;dropdown-menu&quot;&gt;
+	&lt;!-- bloc déroulant --&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Service 1&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Autre service&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Dernier Service&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/div&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;A propos&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Services&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Contact&lt;/a&gt;</p>
+	<li/>
+<p>&lt;/nav&gt;</p>
+</ol>
+<p><br/>
+<br/>
+
+</p>
+<p><br/>
+<br/>
+
+</p>
+<p>La barre est crée avec <strong>navbar</strong>.</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;navbar
+	navbar-light bg-light&quot;&gt;</p>
+	<li/>
+<p>&lt;/nav&gt;</p>
+</ol>
+<p>Le point de rupture (mode mobile) est définit par <strong>navbar-expand-*</strong>
+. Remplacez <strong>*</strong> par <em>sm, md, lg </em>ou<em> xl</em>.</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;navbar
+	navbar-light bg-light navbar-expand-lg&quot;&gt; 
+	</p>
+	<li/>
+<p>&lt;/nav&gt;</p>
+</ol>
+<p>Affichez le logo ou la marque avec <strong>navbar-brand</strong>.</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;navbar
+	navbar-light bg-light navbar-expand-lg&quot;&gt; 
+	</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;navbar-brand&quot;
+	href=&quot;#&quot;&gt;Logo&lt;/a&gt;</p>
+	<li/>
+<p>&lt;/nav&gt;</p>
+</ol>
+<p>Placez ensuite le bouton <strong>navbar-toggler</strong> et son
+icône barre <strong>navbar-toggler-icon</strong> pour le mode
+mobile.</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;navbar
+	navbar-light bg-light navbar-expand-lg&quot;&gt; 
+	</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;navbar-brand&quot;
+	href=&quot;#&quot;&gt;Logo&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;button
+	class=&quot;navbar-toggler&quot; type=&quot;button&quot;
+	data-toggle=&quot;collapse&quot;
+	data-target=&quot;#navbarSupportedContent&quot;
+	aria-controls=&quot;navbarSupportedContent&quot;
+	aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;span
+	class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/button&gt;</p>
+	<li/>
+<p>&lt;/nav&gt;</p>
+</ol>
+<p>Intégrez ensuite les liens de navigations dans un bloc
+navbar-collapse .</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;navbar
+	navbar-light bg-light navbar-expand-lg&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;navbar-brand&quot;
+	href=&quot;#&quot;&gt;Logo&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;button
+	class=&quot;navbar-toggler&quot; type=&quot;button&quot;
+	data-toggle=&quot;collapse&quot;
+	data-target=&quot;#navbarSupportedContent&quot;
+	aria-controls=&quot;navbarSupportedContent&quot;
+	aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;span
+	class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/button&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div class=&quot;collapse
+	navbar-collapse&quot; id=&quot;navbarSupportedContent&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;ul class=&quot;navbar-nav
+	mr-auto&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;li class=&quot;nav-item
+	active&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Accueil&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/li&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;li class=&quot;nav-item&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;A propos&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/li&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;li class=&quot;nav-item&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Services&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/li&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;li class=&quot;nav-item&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Contact&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/li&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/ul&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/div&gt;</p>
+	<li/>
+<p>&lt;/nav&gt;</p>
+</ol>
+<p><br/>
+<br/>
+
+</p>
+<h3 class="western">Avec menu déroulant</h3>
+<p>Il suffit d’intégrer le bloc déroulant ( <em>dropdown-menu</em>
+) dans un menu.</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;nav class=&quot;navbar
+	navbar-expand-lg navbar-light bg-light&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;navbar-brand&quot;
+	href=&quot;#&quot;&gt;Logo&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;button
+	class=&quot;navbar-toggler&quot; type=&quot;button&quot;
+	data-toggle=&quot;collapse&quot;
+	data-target=&quot;#navbarSupportedContent&quot;
+	aria-controls=&quot;navbarSupportedContent&quot;
+	aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;span
+	class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/button&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div class=&quot;collapse
+	navbar-collapse&quot; id=&quot;navbarSupportedContent&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;ul class=&quot;navbar-nav
+	mr-auto&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;li class=&quot;nav-item
+	active&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Accueil&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/li&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;li class=&quot;nav-item&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;A propos&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/li&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;li class=&quot;nav-item
+	dropdown&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link
+	dropdown-toggle&quot; href=&quot;#&quot; id=&quot;navbarDropdownMenuLink&quot;
+	data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot;
+	aria-expanded=&quot;false&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">Services</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;!-- bloc menu déroulant --&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;div class=&quot;dropdown-menu&quot;
+	aria-labelledby=&quot;navbarDropdownMenuLink&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Service 1&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Autre service action&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;dropdown-item&quot;
+	href=&quot;#&quot;&gt;Dernier service&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/div&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/li&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;li class=&quot;nav-item&quot;&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;a class=&quot;nav-link&quot;
+	href=&quot;#&quot;&gt;Contact&lt;/a&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/li&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/ul&gt;</p>
+	<li/>
+<p style="margin-bottom: 0cm">&lt;/div&gt;</p>
+	<li/>
+<p>&lt;/nav</p>
+</ol>
+</body>
+</html>
